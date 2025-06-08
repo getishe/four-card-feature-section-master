@@ -11,6 +11,8 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Four card feature section</title>
 
@@ -27,32 +29,37 @@
   </head>
   <body>
     <main>
-      <section>
+      <div class="content">
         <h1>Reliable, efficient delivery</h1>
         <h1>Powered by Technology</h1>
         <p>
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
-      </section>
-      <section>
-        <h2>Supervisor</h2>
-        <p>Monitors activity to identify project roadblocks</p>
-      </section>
-      <section>
-        <h2>Team Builder</h2>
-        <p>
-          Scans our talent network to create the optimal team for your project
-        </p>
-      </section>
-      <section>
-        <h2>Karma</h2>
-        <p>Regularly evaluates our talent to ensure quality</p>
-      </section>
-      <section>
-        <h2>Calculator</h2>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-      </section>
+      </div>
+      <div class="card-container">
+        <section id="supervisor">
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify project roadblocks</p>
+          <img src="images/icon-supervisor.svg" alt="Supervisor Icon" />
+        </section>
+        <section id="Team-bulider">
+          <h2>Team Builder</h2>
+          <p>
+            Scans our talent network to create the optimal team for your project
+          </p>
+        </section>
+        <section id="karma">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+        </section>
+        <section id="calculator">
+          <h2>Calculator</h2>
+          <p>
+            Uses data from past projects to provide better delivery estimates
+          </p>
+        </section>
+      </div>
     </main>
     <footer>
       <p class="attribution">
