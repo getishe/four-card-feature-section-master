@@ -61,9 +61,17 @@ header {
 .box-2,
 .box-3,
 .box-4 {
-  padding: 15px;
+  padding: 1.6rem;
   margin: 15px;
   border: 2px solid green;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+img {
+  float: right;
 }
 
 .card-container {
@@ -79,6 +87,9 @@ header {
   /* padding: 2rem; */
 }
 
+main {
+  border: 2px solid yellow;
+}
 .box-2 {
   background-color: #f8d7da;
   grid-column: 2;
