@@ -61,17 +61,21 @@ header {
 .box-2,
 .box-3,
 .box-4 {
+  display: grid;
   padding: 1.6rem;
   margin: 15px;
   border: 2px solid green;
 }
 
-.box-1,
-.box-2,
-.box-3,
-.box-4,
-img {
-  float: right;
+.box-1 img,
+.box-2 img,
+.box-3 img,
+.box-4 img {
+  justify-self: end;
+  margin-top: 2rem;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
 .card-container {
