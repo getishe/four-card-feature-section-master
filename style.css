@@ -38,7 +38,7 @@ body {
   height: auto;
   max-width: 320px; /* Reduce from 350px */
   margin: 0;
-
+  width:100%;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.12);
   border-radius: 6px; /* Slightly rounded corners as seen in the design */
   padding: 1.5rem;
